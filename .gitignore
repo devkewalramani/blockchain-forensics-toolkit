@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Reports and Data
+reports/
+balance_reports/
+cache/
+*.csv
+*.json
+*.txt
+!README.txt
+!requirements.txt
+
+# API Keys and Secrets
+.env
+*.key
+config.ini
+secrets.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
